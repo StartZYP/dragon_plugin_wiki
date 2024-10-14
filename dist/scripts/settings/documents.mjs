@@ -1,91 +1,67 @@
+/*
+ * @Author: StartZyp
+ * @Date: 2024-10-14 11:21:04
+ * @LastEditors: StartZyp
+ * @LastEditTime: 2024-10-14 11:31:02
+ * @FilePath: /dragon_plugin_wiki/dist/scripts/settings/documents.mjs
+ * 
+ * Copyright (c) 2024 by StartZyp/Reddrip, All Rights Reserved. 
+ */
 export const Documents = [
     {
-        title: "Introduction",
+        title: "",
         href: "/introduction",
-        heading: "Getting started",
+        heading: "大型跨服插件",
         items: [
             {
-                title: "Installation",
+                title: "[龙之技能]DragonSkillView",
                 href: "/installation",
             },
             {
-                title: "Setup",
+                spacer: true,
+            },
+            {
+                title: "[龙之任务]DragonTaskView",
                 href: "/setup",
             },
             {
-                title: "Changelog",
+                spacer: true,
+            },
+            {
+                title: "[龙之商店]DragonNpcShop",
                 href: "/changelog",
             },
+            {
+                spacer: true,
+            },
+            {
+                title: "[龙之商城]DragonMarket",
+                href: "/changelog",
+            },
+            {
+                spacer: true,
+            },
+            {
+                title: "[龙之工会]DragonGuild",
+                href: "/changelog",
+            },
+            {
+                spacer: true,
+            },
+            {
+                title: "[龙之坐骑]DragonRide",
+                href: "/changelog",
+            },
+            {
+                spacer: true,
+            },
+            {
+                title: "[龙之仓库]DragonStorage",
+                href: "/changelog",
+            }
         ],
     },
     {
         spacer: true,
-    },
-    {
-        title: "Navigation",
-        href: "/navigation",
-        heading: "Documents",
-    },
-    {
-        title: "Structure",
-        href: "/structure",
-        items: [
-            {
-                title: "Deeper",
-                href: "/deeper",
-                items: [
-                    {
-                        title: "Even deeper",
-                        href: "/even-deeper",
-                    },
-                ]
-            },
-        ],
-    },
-    {
-        spacer: true,
-    },
-    {
-        title: "Markup",
-        href: "/markup",
-        heading: "Components",
-        items: [
-            {
-                title: "Cards",
-                href: "/cards",
-            },
-            {
-                title: "Diagrams",
-                href: "/diagrams",
-            },
-            {
-                title: "Filetree",
-                href: "/filetree",
-            },
-            {
-                title: "Lists",
-                href: "/lists",
-            },
-            {
-                title: "Maths",
-                href: "/maths",
-            },
-            {
-                title: "Notes",
-                href: "/notes",
-            },
-            {
-                title: "Steps",
-                href: "/steps",
-            },
-            {
-                title: "Table",
-                href: "/table",
-            },
-            {
-                title: "Tabs",
-                href: "/tabs",
-            },
-        ],
-    },
+    }
 ];
